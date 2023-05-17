@@ -33,7 +33,7 @@ docker-compose up -d
 ```bash
 docker ps
 ```
-1. Open browser and type http://0.0.0.0:8080 to launch the airflow webserver
+1. Open browser and type http://0.0.0.0:8080 to launch the airflow webserver<br>
 In our case the URL is: http://localhost:8080, you can figure out your URL by going to the docker app, clicking on the Airflow service and checking the URL where it's hosted, it should be right under the service name if it exists.
 
 ![](images/screenshot_airflow_docker.png)
